@@ -1,0 +1,34 @@
+# --- secrets: never commit ---
+firmware/src/secrets.h
+secrets.h
+.env
+*.key
+
+# --- runtime artifacts ---
+sort_log.jsonl
+zone_markers.png
+zone_markers_inverted.png
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- platformio / build ---
+.pio/
+.pioenvs/
+.piolibdeps/
+firmware/.pio/
+
+# --- editors / os ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- large weights (uncomment if you host them as a release asset instead) ---
+# *.pt
+# *.onnx
