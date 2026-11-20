@@ -528,6 +528,25 @@ overridden at runtime by the ARM tab sliders.
 Success rate, failed picks, and throughput per minute come straight out of this
 file — no manual tallying during a run.
 
+### Dataset samples
+
+A few frames from the training set (apples and oranges on the marker-defined platform):
+
+<p align="center">
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (1).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (2).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (3).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (4).png" width="24%" />
+</p>
+<p align="center">
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (5).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (6).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (7).png" width="24%" />
+  <img src="Apples and Oranges Dataset/Apples and Oranges  (8).png" width="24%" />
+</p>
+
+The full set lives in `Apples and Oranges Dataset/` (100+ labelled frames). Trained weights are in `apples_oranges_model/`.
+
 ---
 
 ## 13. Project layout
