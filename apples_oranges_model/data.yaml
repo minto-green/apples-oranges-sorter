@@ -1,0 +1,14 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 2
+names:
+- Apple
+- Orange
+roboflow:
+  workspace: anones-workspace-vsptd
+  project: apples-and-oranges-jvzby
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anones-workspace-vsptd/apples-and-oranges-jvzby/dataset/4
+path: /kaggle/working/Apples-and-Oranges-4
